@@ -12,5 +12,8 @@
 ## Install the bundle in a reusable docker image
     docker-compose build
 
+## Create database schema
+    docker-compose run web rake db:create
+
 ## Run application
     docker-compose up -d
