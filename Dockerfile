@@ -14,3 +14,5 @@ COPY Gemfile.lock Gemfile.lock
 RUN bundle install
 
 ADD . /myapp
+
+EXPOSE 3000
